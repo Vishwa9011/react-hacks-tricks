@@ -65,7 +65,7 @@ const FetchControl = () => {
 
      /*
      ? when you are using the count dependency inside the count it will run always when you increase count but 
-     ? this time you api is going to call same querry 
+     ? this time your api is going to call same querry 
      ! if you want to prevent this
      * then please see after code if you want to see difference please slow downn you network;
      */

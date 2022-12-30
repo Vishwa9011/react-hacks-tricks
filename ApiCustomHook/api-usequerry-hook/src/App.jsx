@@ -5,13 +5,12 @@ function App() {
   const { response } = UseQuerry(
     axios.get('https://jsonplaceholder.typicode.com/todos/')
   )
-
   console.log(response)
+
+
   return (
     <div className="App">
-
-
-
+      
     </div>
   )
 }

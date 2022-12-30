@@ -8,7 +8,7 @@ const Axios = () => {
 
      // ? advanced
      useEffect(() => {
-          const cancelToken = axios.CancelToken.source()
+          const cancelToken = axios.CancelToken.source();
           console.log('cancelToken: ', cancelToken);
           axios.get('https://jsonplaceholder.typicode.com/todos/1', {
                // ! canceltoken 
@@ -28,7 +28,7 @@ const Axios = () => {
                })
 
           return () => {
-               console.log("Cancelled by cleanup")
+               console.log("Cancelled by cleanup");
                cancelToken.cancel();
           }
      }, [count])
